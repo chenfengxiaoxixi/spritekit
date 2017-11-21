@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B8A6081FC3DC46000A87B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6071FC3DC46000A87B0 /* main.m */; };
+		A2B8A60B1FC3DC46000A87B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A60A1FC3DC46000A87B0 /* AppDelegate.m */; };
+		A2B8A60D1FC3DC46000A87B0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A60C1FC3DC46000A87B0 /* GameScene.sks */; };
+		A2B8A60F1FC3DC46000A87B0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A60E1FC3DC46000A87B0 /* Actions.sks */; };
+		A2B8A6121FC3DC46000A87B0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6111FC3DC46000A87B0 /* GameScene.m */; };
+		A2B8A6151FC3DC46000A87B0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6141FC3DC46000A87B0 /* GameViewController.m */; };
+		A2B8A6181FC3DC46000A87B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6161FC3DC46000A87B0 /* Main.storyboard */; };
+		A2B8A61A1FC3DC46000A87B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6191FC3DC46000A87B0 /* Assets.xcassets */; };
+		A2B8A61D1FC3DC46000A87B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A61B1FC3DC46000A87B0 /* LaunchScreen.storyboard */; };
+		A2B8A6281FC3DC46000A87B0 /* BeatMonstersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6271FC3DC46000A87B0 /* BeatMonstersTests.m */; };
+		A2B8A6331FC3DC46000A87B0 /* BeatMonstersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6321FC3DC46000A87B0 /* BeatMonstersUITests.m */; };
+		A2B8A6421FC3DDC5000A87B0 /* GameResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B8A6411FC3DDC5000A87B0 /* GameResultScene.m */; };
+		A2B8A64E1FC3E0BD000A87B0 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6451FC3E0BD000A87B0 /* monster.png */; };
+		A2B8A64F1FC3E0BD000A87B0 /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6461FC3E0BD000A87B0 /* monster@2x.png */; };
+		A2B8A6501FC3E0BD000A87B0 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6471FC3E0BD000A87B0 /* player.png */; };
+		A2B8A6511FC3E0BD000A87B0 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6481FC3E0BD000A87B0 /* player@2x.png */; };
+		A2B8A6521FC3E0BD000A87B0 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A6491FC3E0BD000A87B0 /* projectile.png */; };
+		A2B8A6531FC3E0BD000A87B0 /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A64A1FC3E0BD000A87B0 /* projectile@2x.png */; };
+		A2B8A6541FC3E0BD000A87B0 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A64C1FC3E0BD000A87B0 /* background-music-aac.caf */; };
+		A2B8A6551FC3E0BD000A87B0 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = A2B8A64D1FC3E0BD000A87B0 /* pew-pew-lei.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B8A6241FC3DC46000A87B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B8A5FB1FC3DC46000A87B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B8A6021FC3DC46000A87B0;
+			remoteInfo = BeatMonsters;
+		};
+		A2B8A62F1FC3DC46000A87B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B8A5FB1FC3DC46000A87B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B8A6021FC3DC46000A87B0;
+			remoteInfo = BeatMonsters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2B8A6031FC3DC46000A87B0 /* BeatMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B8A6071FC3DC46000A87B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B8A6091FC3DC46000A87B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2B8A60A1FC3DC46000A87B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2B8A60C1FC3DC46000A87B0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A2B8A60E1FC3DC46000A87B0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A2B8A6101FC3DC46000A87B0 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A2B8A6111FC3DC46000A87B0 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A2B8A6131FC3DC46000A87B0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A2B8A6141FC3DC46000A87B0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A2B8A6171FC3DC46000A87B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B8A6191FC3DC46000A87B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B8A61C1FC3DC46000A87B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B8A61E1FC3DC46000A87B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B8A6231FC3DC46000A87B0 /* BeatMonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B8A6271FC3DC46000A87B0 /* BeatMonstersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatMonstersTests.m; sourceTree = "<group>"; };
+		A2B8A6291FC3DC46000A87B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B8A62E1FC3DC46000A87B0 /* BeatMonstersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMonstersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B8A6321FC3DC46000A87B0 /* BeatMonstersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatMonstersUITests.m; sourceTree = "<group>"; };
+		A2B8A6341FC3DC46000A87B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B8A6401FC3DDC5000A87B0 /* GameResultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameResultScene.h; sourceTree = "<group>"; };
+		A2B8A6411FC3DDC5000A87B0 /* GameResultScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameResultScene.m; sourceTree = "<group>"; };
+		A2B8A6451FC3E0BD000A87B0 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		A2B8A6461FC3E0BD000A87B0 /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		A2B8A6471FC3E0BD000A87B0 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		A2B8A6481FC3E0BD000A87B0 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		A2B8A6491FC3E0BD000A87B0 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		A2B8A64A1FC3E0BD000A87B0 /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		A2B8A64C1FC3E0BD000A87B0 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		A2B8A64D1FC3E0BD000A87B0 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B8A6001FC3DC46000A87B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A6201FC3DC46000A87B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A62B1FC3DC46000A87B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B8A5FA1FC3DC46000A87B0 = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6051FC3DC46000A87B0 /* BeatMonsters */,
+				A2B8A6261FC3DC46000A87B0 /* BeatMonstersTests */,
+				A2B8A6311FC3DC46000A87B0 /* BeatMonstersUITests */,
+				A2B8A6041FC3DC46000A87B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B8A6041FC3DC46000A87B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6031FC3DC46000A87B0 /* BeatMonsters.app */,
+				A2B8A6231FC3DC46000A87B0 /* BeatMonstersTests.xctest */,
+				A2B8A62E1FC3DC46000A87B0 /* BeatMonstersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B8A6051FC3DC46000A87B0 /* BeatMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6431FC3E0BD000A87B0 /* L19-Resource */,
+				A2B8A6091FC3DC46000A87B0 /* AppDelegate.h */,
+				A2B8A60A1FC3DC46000A87B0 /* AppDelegate.m */,
+				A2B8A60C1FC3DC46000A87B0 /* GameScene.sks */,
+				A2B8A60E1FC3DC46000A87B0 /* Actions.sks */,
+				A2B8A6101FC3DC46000A87B0 /* GameScene.h */,
+				A2B8A6111FC3DC46000A87B0 /* GameScene.m */,
+				A2B8A6131FC3DC46000A87B0 /* GameViewController.h */,
+				A2B8A6141FC3DC46000A87B0 /* GameViewController.m */,
+				A2B8A6401FC3DDC5000A87B0 /* GameResultScene.h */,
+				A2B8A6411FC3DDC5000A87B0 /* GameResultScene.m */,
+				A2B8A6161FC3DC46000A87B0 /* Main.storyboard */,
+				A2B8A6191FC3DC46000A87B0 /* Assets.xcassets */,
+				A2B8A61B1FC3DC46000A87B0 /* LaunchScreen.storyboard */,
+				A2B8A61E1FC3DC46000A87B0 /* Info.plist */,
+				A2B8A6061FC3DC46000A87B0 /* Supporting Files */,
+			);
+			path = BeatMonsters;
+			sourceTree = "<group>";
+		};
+		A2B8A6061FC3DC46000A87B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6071FC3DC46000A87B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2B8A6261FC3DC46000A87B0 /* BeatMonstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6271FC3DC46000A87B0 /* BeatMonstersTests.m */,
+				A2B8A6291FC3DC46000A87B0 /* Info.plist */,
+			);
+			path = BeatMonstersTests;
+			sourceTree = "<group>";
+		};
+		A2B8A6311FC3DC46000A87B0 /* BeatMonstersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6321FC3DC46000A87B0 /* BeatMonstersUITests.m */,
+				A2B8A6341FC3DC46000A87B0 /* Info.plist */,
+			);
+			path = BeatMonstersUITests;
+			sourceTree = "<group>";
+		};
+		A2B8A6431FC3E0BD000A87B0 /* L19-Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6441FC3E0BD000A87B0 /* images */,
+				A2B8A64B1FC3E0BD000A87B0 /* musics */,
+			);
+			path = "L19-Resource";
+			sourceTree = "<group>";
+		};
+		A2B8A6441FC3E0BD000A87B0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A6451FC3E0BD000A87B0 /* monster.png */,
+				A2B8A6461FC3E0BD000A87B0 /* monster@2x.png */,
+				A2B8A6471FC3E0BD000A87B0 /* player.png */,
+				A2B8A6481FC3E0BD000A87B0 /* player@2x.png */,
+				A2B8A6491FC3E0BD000A87B0 /* projectile.png */,
+				A2B8A64A1FC3E0BD000A87B0 /* projectile@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A2B8A64B1FC3E0BD000A87B0 /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8A64C1FC3E0BD000A87B0 /* background-music-aac.caf */,
+				A2B8A64D1FC3E0BD000A87B0 /* pew-pew-lei.caf */,
+			);
+			path = musics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B8A6021FC3DC46000A87B0 /* BeatMonsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B8A6371FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonsters" */;
+			buildPhases = (
+				A2B8A5FF1FC3DC46000A87B0 /* Sources */,
+				A2B8A6001FC3DC46000A87B0 /* Frameworks */,
+				A2B8A6011FC3DC46000A87B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatMonsters;
+			productName = BeatMonsters;
+			productReference = A2B8A6031FC3DC46000A87B0 /* BeatMonsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B8A6221FC3DC46000A87B0 /* BeatMonstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B8A63A1FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonstersTests" */;
+			buildPhases = (
+				A2B8A61F1FC3DC46000A87B0 /* Sources */,
+				A2B8A6201FC3DC46000A87B0 /* Frameworks */,
+				A2B8A6211FC3DC46000A87B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B8A6251FC3DC46000A87B0 /* PBXTargetDependency */,
+			);
+			name = BeatMonstersTests;
+			productName = BeatMonstersTests;
+			productReference = A2B8A6231FC3DC46000A87B0 /* BeatMonstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2B8A62D1FC3DC46000A87B0 /* BeatMonstersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B8A63D1FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonstersUITests" */;
+			buildPhases = (
+				A2B8A62A1FC3DC46000A87B0 /* Sources */,
+				A2B8A62B1FC3DC46000A87B0 /* Frameworks */,
+				A2B8A62C1FC3DC46000A87B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B8A6301FC3DC46000A87B0 /* PBXTargetDependency */,
+			);
+			name = BeatMonstersUITests;
+			productName = BeatMonstersUITests;
+			productReference = A2B8A62E1FC3DC46000A87B0 /* BeatMonstersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B8A5FB1FC3DC46000A87B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenfeng;
+				TargetAttributes = {
+					A2B8A6021FC3DC46000A87B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+					};
+					A2B8A6221FC3DC46000A87B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2B8A6021FC3DC46000A87B0;
+					};
+					A2B8A62D1FC3DC46000A87B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2C8G4647XY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2B8A6021FC3DC46000A87B0;
+					};
+				};
+			};
+			buildConfigurationList = A2B8A5FE1FC3DC46000A87B0 /* Build configuration list for PBXProject "BeatMonsters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B8A5FA1FC3DC46000A87B0;
+			productRefGroup = A2B8A6041FC3DC46000A87B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B8A6021FC3DC46000A87B0 /* BeatMonsters */,
+				A2B8A6221FC3DC46000A87B0 /* BeatMonstersTests */,
+				A2B8A62D1FC3DC46000A87B0 /* BeatMonstersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B8A6011FC3DC46000A87B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B8A6531FC3E0BD000A87B0 /* projectile@2x.png in Resources */,
+				A2B8A6181FC3DC46000A87B0 /* Main.storyboard in Resources */,
+				A2B8A60D1FC3DC46000A87B0 /* GameScene.sks in Resources */,
+				A2B8A6521FC3E0BD000A87B0 /* projectile.png in Resources */,
+				A2B8A6501FC3E0BD000A87B0 /* player.png in Resources */,
+				A2B8A64E1FC3E0BD000A87B0 /* monster.png in Resources */,
+				A2B8A61A1FC3DC46000A87B0 /* Assets.xcassets in Resources */,
+				A2B8A61D1FC3DC46000A87B0 /* LaunchScreen.storyboard in Resources */,
+				A2B8A6551FC3E0BD000A87B0 /* pew-pew-lei.caf in Resources */,
+				A2B8A6541FC3E0BD000A87B0 /* background-music-aac.caf in Resources */,
+				A2B8A60F1FC3DC46000A87B0 /* Actions.sks in Resources */,
+				A2B8A6511FC3E0BD000A87B0 /* player@2x.png in Resources */,
+				A2B8A64F1FC3E0BD000A87B0 /* monster@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A6211FC3DC46000A87B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A62C1FC3DC46000A87B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B8A5FF1FC3DC46000A87B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B8A6151FC3DC46000A87B0 /* GameViewController.m in Sources */,
+				A2B8A60B1FC3DC46000A87B0 /* AppDelegate.m in Sources */,
+				A2B8A6421FC3DDC5000A87B0 /* GameResultScene.m in Sources */,
+				A2B8A6121FC3DC46000A87B0 /* GameScene.m in Sources */,
+				A2B8A6081FC3DC46000A87B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A61F1FC3DC46000A87B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B8A6281FC3DC46000A87B0 /* BeatMonstersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B8A62A1FC3DC46000A87B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B8A6331FC3DC46000A87B0 /* BeatMonstersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B8A6251FC3DC46000A87B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B8A6021FC3DC46000A87B0 /* BeatMonsters */;
+			targetProxy = A2B8A6241FC3DC46000A87B0 /* PBXContainerItemProxy */;
+		};
+		A2B8A6301FC3DC46000A87B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B8A6021FC3DC46000A87B0 /* BeatMonsters */;
+			targetProxy = A2B8A62F1FC3DC46000A87B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B8A6161FC3DC46000A87B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B8A6171FC3DC46000A87B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B8A61B1FC3DC46000A87B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B8A61C1FC3DC46000A87B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B8A6351FC3DC46000A87B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2B8A6361FC3DC46000A87B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B8A6381FC3DC46000A87B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2B8A6391FC3DC46000A87B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonsters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2B8A63B1FC3DC46000A87B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonstersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMonsters.app/BeatMonsters";
+			};
+			name = Debug;
+		};
+		A2B8A63C1FC3DC46000A87B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonstersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonstersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMonsters.app/BeatMonsters";
+			};
+			name = Release;
+		};
+		A2B8A63E1FC3DC46000A87B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonstersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonstersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeatMonsters;
+			};
+			name = Debug;
+		};
+		A2B8A63F1FC3DC46000A87B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2C8G4647XY;
+				INFOPLIST_FILE = BeatMonstersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.BeatMonstersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeatMonsters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B8A5FE1FC3DC46000A87B0 /* Build configuration list for PBXProject "BeatMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B8A6351FC3DC46000A87B0 /* Debug */,
+				A2B8A6361FC3DC46000A87B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B8A6371FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B8A6381FC3DC46000A87B0 /* Debug */,
+				A2B8A6391FC3DC46000A87B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B8A63A1FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B8A63B1FC3DC46000A87B0 /* Debug */,
+				A2B8A63C1FC3DC46000A87B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B8A63D1FC3DC46000A87B0 /* Build configuration list for PBXNativeTarget "BeatMonstersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B8A63E1FC3DC46000A87B0 /* Debug */,
+				A2B8A63F1FC3DC46000A87B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B8A5FB1FC3DC46000A87B0 /* Project object */;
+}
